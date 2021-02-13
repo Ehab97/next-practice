@@ -1,0 +1,47 @@
+.nav {
+     height: 50px;
+     padding: 10px;
+     background: #000;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+   }
+   
+   .nav ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+   }
+   
+   .nav ul li a {
+     margin: 5px 15px;
+   }
+   .title a,
+.title span {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
